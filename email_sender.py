@@ -3,7 +3,7 @@ import smtplib
 from email.message import EmailMessage
 email = EmailMessage()
 email['from'] = 'Stephen'
-email['to'] ='andrei@zerotomastery.io'
+email['to'] ='recipient email'
 email['subjet'] ='you will be good in this coding, dont give up'
 
 email.set_content('i am a python Master')
